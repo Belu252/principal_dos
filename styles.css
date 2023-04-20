@@ -1,0 +1,192 @@
+*{ /*RESETEO NAVEGADOR*/
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+ #fondobarra {
+  background-color: #eae4bf;
+  height: 65px; /*Altura menu de navegacion*/
+    width: 100%;  /*Ancho menu*/
+    position: sticky;
+    top: 0;
+    z-index: 2;
+ }
+ .enlace{
+    position: absolute;
+    padding: 20px 50px;/*enlace logo*/
+}
+.logo_img{
+ height: 80px;/*altura(tamano foto) */
+ position: relative;
+bottom: 25px; 
+} 
+
+nav ul{
+    float: right;/*desplaza el menu*/
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;/*menu de costado*/
+    line-height: 70px;/*separacion lineal elementos de menu*/
+    margin: 0 30px;
+}
+nav ul li a{
+    color:#000000;
+    font-size: 30px;
+    font-style: italic;
+    padding-left: 13px;
+    padding-right: 13px;/*padding para espaciado */
+    border-radius: 3px;
+    position: relative;
+    right: 300px;
+    bottom: 5px;
+    padding-top: 7px;
+    padding-bottom: 12px;
+    font-family: 'Cormorant Garamond', serif italic;
+   
+  
+}
+li a:hover{
+    background-color:#9f6730;
+    font-weight: bold;
+}
+
+h1{
+    font-style: bold;
+    font-size: 50px;
+    text-decoration: none;
+    border-top: double 7px;
+    border-right: double 7px;
+    border-left: double 7px;
+    border-bottom: double 7px;
+    color: #9f6730;
+    font-family: 'Cormorant Garamond', serif bold;
+    text-align:center ;
+    width: 100%;
+    margin-top: 20px;
+    
+    
+}
+
+
+h2{
+   color:#000000;
+   font-size: 45px; 
+   text-align: center;
+   margin-top: 13px;
+   margin-bottom: 13px;
+   font-style: bold;
+   font-family: 'Cormorant Garamond', serif;
+
+}
+section p{
+    color:black;
+    font-size:25px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+p{
+    color: black ; 
+    font-size: 25px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+
+
+
+body {
+    background-color: #f6d2a3;
+  
+}
+
+.opcionesaccesorios {
+    text-decoration: none;
+    font-size: 20px;
+    font-style: bold;
+    color:#000000;
+    line-height: 30px;
+    list-style-type: none;
+    font-family: 'Cormorant Garamond', serif;
+}
+.productos{
+    z-index: 1;
+}
+.foto1{
+    position: relative;
+    left: 110px;
+  
+  } 
+  .foto2{
+    position:relative;
+    left:130px;  
+  } 
+  
+  .foto3{
+      position: relative;
+      left:150px;
+  }
+
+.producto_link{
+    position: relative;
+    left: 20px;
+    bottom: 5px;
+}
+iframe {
+    position: relative;
+    left: 330px;
+    
+}
+
+footer p{
+    text-align: center;
+}
+
+.contacto_servicio{
+    position: relative;
+    left: 30px;
+}
+.copyright {
+    font-size: 20px;
+    
+}
+
+.icon-copy {
+    position: relative;
+    left: 135px;
+    top:48px;
+    color: black; 
+}
+.productos_img{
+    margin-left: 25px;
+    
+}
+.productos_img img{
+    height: 350px;
+   
+}
+
+.div_pulsera{
+    display: inline-block;
+}
+.div_pulsera h3, .div_pulsera h4{
+    text-align: center;
+
+}
+.div_pulsera input{
+    margin-left: 90px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(154, 102, 4);
+    color: aliceblue;
+    border-style: none;
+
+}
+/* .section_pulsera{
+    margin-bottom: 100px;
+} */
