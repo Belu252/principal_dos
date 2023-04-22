@@ -254,6 +254,8 @@ footer p{
     font-size:13px;
     color:#f3f3f3;
     margin-bottom:0;
+    position: relative;
+    top: 35px;
   }
   .list-inline{
     display: flex;
@@ -278,4 +280,9 @@ footer p{
   .whatsapp:hover{
     background-color: rgb(22, 130, 80);
  
+  }
+  .icon-copy {/*icono C de copyright*/
+    position: relative;
+    top: 73px;
+    left: 300px;
   }
