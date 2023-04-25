@@ -26,32 +26,47 @@
 <body>
     <header id="fondobarra">
         <div class="logo">
-            <nav>
-                <a href="#" class="enlace">
-                    <!--logo img= enlace -->
-                    <img src="./images/logo1@300x-png.png" alt="" class="logo_img">
-                </a>
+            <input type="checkbox" id="btn-menu">
+            <!--esto va a funcionar como menu-->
+            <label for="btn-menu"> <img class="icon" src="images/icon-menu.png" alt="">
+                <!--class es para darle un nombre identificatorio para el css-->
+            </label>
+            <!--esto va a funcionar como boton del menu-->
+            <nav class="menu"> 
                 <ul>
-                   
-                        <li><a class="#" href="index.html">Inicio</a> </li>
+                    <li><a href=>Nosotros</a></li>
+                    <li><a href=>Productos</a></li>
+                    <li><a href=>Promos</a></li>
+                    <li><a href=>Contacto</a></li>
+                </ul>
+    
+            </nav>
+            <!-- <nav> -->
+                <!-- <a href="#" class="enlace"> -->
+                    <!--logo img= enlace -->
+                    <!-- <img src="./images/logo1@300x-png.png" alt="" class="logo_img"> -->
+                <!-- </a> -->
+                <!-- <ul> -->
+
+                    <!-- <li><a class="#" href="index.html">Inicio</a> </li>
                         <li><a class="#" href="selecciones/Productos.html">Productos</a> </li>
                         <li><a class="#" href="selecciones/Contacto.html">Contacto</a> </li>
-                    
-                </ul>
-            </nav>
+                     -->
+                <!-- </ul> -->
+            <!-- </nav> -->
         </div>
 
     </header>
 
     <main>
-        <button type="button" class="btn btn-primary">Boton de prueba</button>
-        <section>
+
+        <div class="container-fluid"> 
             <h1>Annac Shine Accesorios</h1>
             <h2>Productos más vendidos</h2>
             <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsum ab asperiores eius, sit,
                 assumenda hic sint rem saepe est eligendi possimus. Suscipit blanditiis reprehenderit maxime, ea ratione
                 tempora maiores!</p> -->
-        </section>
+        </div>
 
         <div class="productos">
             <img class="foto1" src="/images/Img-ecomm-HTML/anillos img/an1.jpg" alt="anillomasvendido">
@@ -80,13 +95,16 @@
                 <li class="list-inline-item"><a href="#">Terms</a></li>
                 <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
             </ul>
-            
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon-copy icon icon-tabler icon-tabler-copyright" width="28" height="28" viewBox="0 0 24 24" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon-copy icon icon-tabler icon-tabler-copyright" width="28"
+                height="28" viewBox="0 0 24 24" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <circle cx="12" cy="12" r="9" />
                 <path d="M14.5 9a3.5 4 0 1 0 0 6" />
             </svg>
-            <p class="copyright">Copyright Anaac Shine-2023. Todos los derechos reservados. Defensa de las y los consumidores.Para reclamos ingrese aqui</p>
+            <p class="copyright">Copyright Anaac Shine-2023. Todos los derechos reservados. Defensa de las y los
+                consumidores.Para reclamos ingrese aqui</p>
         </footer>
     </div>
     <!-- <footer>
